@@ -1,0 +1,13 @@
+Source: zero-lliurex-gearth
+Section: admin
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Equipo LliureX <lliurex@gva.es>
+Build-Depends: llxsrchelper,debhelper (>= 7), llxcfg-dev, zero-dev
+Standards-Version: 3.9.3
+
+Package: zero-lliurex-gearth
+Architecture: all
+Depends: ${misc:Depends}, axel, lsb-core,epi-gtk
+Description: Lliurex Google Earth installer
+ Configuration for Google Earth installer
