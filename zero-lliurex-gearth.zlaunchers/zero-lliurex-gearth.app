@@ -1,0 +1,16 @@
+Name=zero-lliurex-gearth
+Name[es]=Instalador del Google Earth
+Name[qcv]=Instal·lador del Google Earth
+Name[ca_ES]=Instal·lador del Google Earth
+Comment=Google Earth Installer
+Comment[es]=Instalador del Google Earth
+Comment[qcv]=Instal·lador del Google Earth
+Comment[ca_ES]=Instal·lador del Google Earth
+Icon=gearth
+Category=Software
+ScriptPath=zero-lliurex-gearth.zmd
+Groups=adm;admins;teachers
+Using=pe
+Service=True
+Modal=True
+Locks=zero-lliurex-gearth

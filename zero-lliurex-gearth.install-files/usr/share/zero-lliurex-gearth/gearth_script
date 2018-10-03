@@ -1,0 +1,80 @@
+#!/bin/bash
+
+
+OLD_GEARTH_REPO_FILE="/etc/apt/sources.list.d/google-earth.list"
+NEW_GEARTH_REPO_FILE="/etc/apt/sources.lis.d/google-earth-pro.list"
+OLD_PACKAGE_NAME="google-earth-stable"
+
+OLD_DESKTOP_PATH="/usr/share/mate/applications/google-earth.desktop"
+NEW_DESKTOP_PATH="/usr/share/mate/applications/google-earth-pro.desktop"
+
+ACTION="$1"
+
+case $ACTION in
+	preInstall)
+		flag=0
+		echo "Checking if it is necessary to export the proxy"
+		lliurex-version | grep server
+		#ES IMPORTANTE EXPORTAR EL PROXY PORQUE GOOGLE EARTH NO NECESITA EN SUS CONEXIONES A LA RED
+		if [ $? -eq 0 ]; then
+			#echo 1
+			flag=1
+		else
+			#echo 2
+			echo "Getting host proxy:"
+			host proxy
+			if [ $? -ne 0 ]; then
+				#echo 3
+				flag=1
+			fi
+		fi
+		#echo 4
+		
+		if [ $flag -eq 0 ]; then
+			 #echo 5
+			 echo "Exporting the proxy..."
+			 export http_proxy="proxy:3128"
+			 echo "The proxy has been exported"
+		else
+			echo "It is not necessary to export the proxy"
+		fi
+
+		
+	;;
+	postInstall)
+		#Elimino el desktop para utilizar el proporcionado por lliurex-desktops-keeper
+		echo "Removing Google-Earth desktops files..."
+		if [ -f $OLD_DESKTOP_PATH ]; then
+			#echo 11
+			rm -f $OLD_DESKTOP_PATH
+		fi	
+		#echo 22
+		if [ -f $NEW_DESKTOP_PATH ]; then
+			rm -f $NEW_DESKTOP_PATH
+			#echo 33
+		fi	
+
+		echo "Removing Google-Earth sources list..."
+		if [ -f $OLD_GEARTH_REPO_FILE ]; then
+			#echo 11
+			rm -f $OLD_GEARTH_REPO_FILE
+		fi
+
+		if [ -f $NEW_GEARTH_REPO_FILE ]; then
+			#echo 11
+			rm -f $NEW_GEARTH_REPO_FILE
+		fi	
+
+		
+	;;
+	remove)
+		apt-get remove -y google-earth-pro-stable
+		TEST=$( dpkg-query -s google-earth-pro-stable 2> /dev/null| grep Status | cut -d " " -f 4 )
+		if [ "$TEST" == 'installed' ];then
+			exit 1
+		fi	
+	;;	
+
+esac
+exit 0
+

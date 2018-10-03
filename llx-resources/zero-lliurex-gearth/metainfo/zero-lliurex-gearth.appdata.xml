@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>zero-lliurex-gearth</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>zero-lliurex-gearth</name>
+<name xml:lang="es">Instalador del Google Earth</name>
+<name xml:lang="ca_ES.UTF-8@valencia">Instal·lador del Google Earth</name>
+<name xml:lang="ca_ES@valencia">Instal·lador del Google Earth</name>
+<name xml:lang="ca_ES">Instal·lador del Google Earth</name>
+<summary>Google Earth Installer</summary>
+<summary xml:lang="es">Instalador del Google Earth</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Instal·lador del Google Earth</summary>
+<summary xml:lang="ca_ES@valencia">Instal·lador del Google Earth</summary>
+<summary xml:lang="ca_ES">Instal·lador del Google Earth</summary>
+<description>
+<p>Google Earth Installer. Geographic information of the world in your hand. Make a virtual trip to anywhere in the world. Explore relief, 3D buildings and other images. Search for local cities, sites and businesses. Whether it's on your computer or while you're moving, watch the 3D world in the same way you're used to seeing it in reality.</p>
+<p xml:lang="es">Instalador del Google Earth. La información geográfica del mundo en tu mano. Realiza un viaje virtual a cualquier lugar del mundo. Explora el relieve, edificios 3D y otras imágenes. Busca ciudades, sitios y empresas locales. Ya sea en tu ordenador o mientras te desplazas, observa el mundo en 3D de la misma forma que estás acostumbrado a verlo en la realidad. </p>
+<p xml:lang="ca_ES.UTF-8@valencia">Instal·lador del Google Earth. La informació geogràfica del món a la teua mà. Realitza un viatge virtual a qualsevol lloc del món. Explora el relleu, edificis 3D i altres imatges. Busca ciutats, llocs i empreses locals. Ja siga en el teu ordinador o mentre et desplaces, observa el món en 3D de la mateixa manera que estàs acostumat a veure-ho en la realitat.</p>
+<p xml:lang="ca_ES@valencia">Instal·lador del Google Earth. La informació geogràfica del món a la teua mà. Realitza un viatge virtual a qualsevol lloc del món. Explora el relleu, edificis 3D i altres imatges. Busca ciutats, llocs i empreses locals. Ja siga en el teu ordinador o mentre et desplaces, observa el món en 3D de la mateixa manera que estàs acostumat a veure-ho en la realitat.</p>
+<p xml:lang="ca_ES">Instal·lador del Google Earth. La informació geogràfica del món a la teua mà. Realitza un viatge virtual a qualsevol lloc del món. Explora el relleu, edificis 3D i altres imatges. Busca ciutats, llocs i empreses locals. Ja siga en el teu ordinador o mentre et desplaces, observa el món en 3D de la mateixa manera que estàs acostumat a veure-ho en la realitat.</p>
+</description>
+<categories>
+<category>Zomando</category>
+<category>Utility</category>
+</categories>
+<icon type="cached">gearth</icon>
+
+<keywords>
+<keyword>zero</keyword>
+<keyword>lliurex</keyword>
+<keyword>gearth</keyword>
+<keyword>zero-lliurex-gearth</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>Instalador</keyword>
+<keyword>del</keyword>
+<keyword>Google</keyword>
+<keyword>Earth</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES.UTF-8@valencia">
+<keyword>Instal·lador</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES">
+<keyword>Zomando</keyword>
+
+</keywords>
+</component>

@@ -1,0 +1,7 @@
+{
+	"type":"deb",
+	"pkg_list": [{"name":"google-earth-pro-stable","version":{"64b":"google-earth-stable_current_amd64.deb","32b":"google-earth-stable_current_i386.deb"},"key_store":"zero-lliurex-gearth","url_download":"http://dl.google.com/dl/earth/client/current/"}],
+	"script": {"name":"/usr/share/zero-lliurex-gearth/gearth_script", "remove":true},
+	"zomando":"zero-lliurex-gearth"
+
+	}

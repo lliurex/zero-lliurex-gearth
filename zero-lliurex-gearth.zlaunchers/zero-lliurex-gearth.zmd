@@ -1,0 +1,5 @@
+#!/bin/bash
+
+epi-gtk /usr/share/zero-lliurex-gearth/gearth.epi
+
+exit 0
