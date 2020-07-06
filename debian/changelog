@@ -1,3 +1,9 @@
+zero-lliurex-gearth (0.47) bionic; urgency=medium
+
+  * Added custom icon in epi file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 06 Jul 2020 11:26:04 +0200
+
 zero-lliurex-gearth (0.46) bionic; urgency=medium
 
   * Changed adm group by sudo 
