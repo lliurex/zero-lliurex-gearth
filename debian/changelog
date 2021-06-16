@@ -1,3 +1,9 @@
+zero-lliurex-gearth (0.47.2) bionic-updates; urgency=medium
+
+  * Fixed app file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 16 Jun 2021 13:39:43 +0200
+
 zero-lliurex-gearth (0.47.1) bionic-updates; urgency=medium
 
   * Added custom name in epi file
