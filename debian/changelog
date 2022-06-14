@@ -1,3 +1,9 @@
+zero-lliurex-gearth (0.59) lliurex22; urgency=medium
+
+  * Allow all groups
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 14 Jun 2022 12:59:24 +0200
+
 zero-lliurex-gearth (0.58.1) focal; urgency=medium
 
   * Fixed app file
