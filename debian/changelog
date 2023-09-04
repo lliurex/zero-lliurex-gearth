@@ -1,0 +1,253 @@
+zero-lliurex-gearth (0.59) lliurex22; urgency=medium
+
+  * Allow all groups
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 14 Jun 2022 12:59:24 +0200
+
+zero-lliurex-gearth (0.58.1) focal; urgency=medium
+
+  * Fixed app file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 16 Jun 2021 13:41:37 +0200
+
+zero-lliurex-gearth (0.58) focal; urgency=medium
+
+  * Added custom name in epi
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 25 May 2021 17:15:49 +0200
+
+zero-lliurex-gearth (0.57) focal; urgency=medium
+
+  * Initial release for focal
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 27 Jan 2021 14:29:42 +0100
+
+zero-lliurex-gearth (0.47) bionic; urgency=medium
+
+  * Added custom icon in epi file
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Mon, 06 Jul 2020 11:26:04 +0200
+
+zero-lliurex-gearth (0.46) bionic; urgency=medium
+
+  * Changed adm group by sudo 
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 05 Mar 2019 15:53:30 +0100
+
+zero-lliurex-gearth (0.45) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 03 Oct 2018 09:21:56 +0200
+
+zero-lliurex-gearth (0.35) xenial; urgency=medium
+
+  * Removed sources list after installation
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 22 Jun 2018 08:14:04 +0200
+
+zero-lliurex-gearth (0.34) xenial; urgency=medium
+
+  * Implemented changes to EPI
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 27 Apr 2018 12:01:08 +0200
+
+zero-lliurex-gearth (0.31-lliurex5) xenial; urgency=medium
+
+  * Updated for google-earth-pro version
+  * Remove sources list of google
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 06 Sep 2017 12:16:07 +0200
+
+zero-lliurex-gearth (0.31-lliurex4) xenial; urgency=medium
+
+  * Checking if file is downloaded
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 30 Jun 2017 10:17:47 +0200
+
+zero-lliurex-gearth (0.31-lliurex3) xenial; urgency=medium
+
+  * Removed deprecated locale
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Thu, 22 Jun 2017 09:20:55 +0200
+
+zero-lliurex-gearth (0.31-lliurex2) xenial; urgency=medium
+
+  * Remove google-earth.desktop when install ending
+
+ -- Juan Ramon Pelegrina  <juapesai@hotmail.com>  Thu, 15 Jun 2017 13:37:32 +0200
+
+zero-lliurex-gearth (0.31-lliurex1) xenial; urgency=medium
+
+  * Fixed zomando desktop (wrong icon path)
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Tue, 30 May 2017 16:41:45 +0200
+
+zero-lliurex-gearth (0.31) xenial; urgency=medium
+
+  * Added metainfo 
+
+ -- Juanma Navarro Mañez <juanma1980@gmail.com>  Tue, 30 May 2017 11:50:11 +0200
+
+zero-lliurex-gearth (0.30) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 02 Feb 2016 17:52:28 +0100
+
+zero-lliurex-gearth (0.25) trusty; urgency=high
+
+  * Add new translations
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 20 Apr 2015 15:37:25 +0200
+
+zero-lliurex-gearth (0.24) trusty; urgency=high
+
+  * bugfixed for net down 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 20 Apr 2015 09:42:17 +0200
+
+zero-lliurex-gearth (0.23) trusty; urgency=high
+
+  * Fixed bugs zmds and add with new commands
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Wed, 25 Mar 2015 17:08:16 +0100
+
+zero-lliurex-gearth (0.22) trusty; urgency=high
+
+  * FIxed rules  
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Fri, 17 Oct 2014 10:02:11 +0200
+
+zero-lliurex-gearth (0.21) trusty; urgency=high
+
+  * Changed to any architecture
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Fri, 17 Oct 2014 09:57:23 +0200
+
+zero-lliurex-gearth (0.20) trusty; urgency=medium
+
+  *  New version for zero-center trusty
+
+ -- Alfons Lloret Sananton <turix13@gmail.com>  Fri, 19 Sep 2014 13:22:23 +0200
+
+zero-lliurex-gearth (0.19) precise; urgency=high
+
+  * Updated to platinum
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Sat, 10 May 2014 19:22:04 +0200
+
+zero-lliurex-gearth (0.18) precise; urgency=high
+
+  * Added banner 
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Wed, 30 Apr 2014 09:46:46 +0200
+
+zero-lliurex-gearth (0.17) precise; urgency=low
+
+  * Modified wget by axel 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 05 Jul 2013 10:11:59 +0200
+
+zero-lliurex-gearth (0.16) precise; urgency=low
+
+  * Added several architectures to rules file 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 05 Jul 2013 09:55:54 +0200
+
+zero-lliurex-gearth (0.15) precise; urgency=low
+
+  * New version for pandora 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Thu, 04 Jul 2013 11:32:02 +0200
+
+zero-lliurex-gearth (0.14) precise; urgency=low
+
+  * Updated messages
+
+ -- Angel Berlanas Vicente <angel.berlanas@gmail.com>  Sat, 01 Jun 2013 17:34:04 +0200
+
+zero-lliurex-gearth (0.13) precise; urgency=low
+
+  * Fixed ancient-standards-version 3.8.4 (current is 3.9.3) 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 10 Dec 2012 09:05:15 +0100
+
+zero-lliurex-gearth (0.12) precise; urgency=low
+
+  * Dummy version
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 28 Nov 2012 09:25:50 +0100
+
+zero-lliurex-gearth (0.11ubuntu1) precise; urgency=low
+
+  * Added llxcfg-runtime dependence 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 28 Nov 2012 09:22:43 +0100
+
+zero-lliurex-gearth (0.11) precise; urgency=low
+
+  * Fixing dependences
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 21 Nov 2012 11:48:01 +0100
+
+zero-lliurex-gearth (0.10) precise; urgency=low
+
+  * First release for pandora (renamed)
+  * 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 21 Nov 2012 11:47:53 +0100
+
+lliurex-gearth (0.9) unstable; urgency=low
+
+  * Added update
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 22 Oct 2012 11:29:46 +0200
+
+lliurex-gearth (0.8) unstable; urgency=low
+
+  * Adding client test connection
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 17 Sep 2012 12:33:08 +0200
+
+lliurex-gearth (0.7) unstable; urgency=low
+
+  * Fixed
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 13 Jul 2012 09:15:51 +0200
+
+lliurex-gearth (0.6) unstable; urgency=low
+
+  * Changed internet testing
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 11 Jul 2012 09:15:05 +0200
+
+lliurex-gearth (0.5) unstable; urgency=low
+
+  * Modify uploaders 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Tue, 24 Jan 2012 12:37:55 +0100
+
+lliurex-gearth (0.4) unstable; urgency=low
+
+  * Dummy Version 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 02 Dec 2011 12:52:14 +0100
+
+lliurex-gearth (0.3) unstable; urgency=low
+
+  * Deleted find from script 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Fri, 02 Dec 2011 12:49:34 +0100
+
+lliurex-gearth (0.2) unstable; urgency=low
+
+  * Zero Center for Google Earth
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Wed, 30 Nov 2011 09:56:22 +0100
+
+lliurex-gearth (0.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Francisco Antonino Daviu <antonino_fra@gva.es>  Fri, 11 Nov 2011 13:09:13 +0100
