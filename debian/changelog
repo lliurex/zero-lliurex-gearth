@@ -1,3 +1,9 @@
+zero-lliurex-gearth (0.79.1) noble; urgency=medium
+
+  * Removed lsb-core depend
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 20 Sep 2024 08:33:16 +0200
+
 zero-lliurex-gearth (0.79) noble; urgency=medium
 
   * Initial release for Noble
