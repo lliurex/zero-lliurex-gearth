@@ -16,3 +16,4 @@ Using=pkexec
 Service=True
 Modal=True
 Locks=zero-lliurex-gearth
+Show=False
