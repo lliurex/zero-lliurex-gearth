@@ -1,3 +1,9 @@
+zero-lliurex-gearth (0.79.3) noble; urgency=medium
+
+  * Hide installation from zero-center.
+
+ -- Daniel Duran <daduve@gmail.com>  Fri, 02 May 2025 10:42:14 +0200
+
 zero-lliurex-gearth (0.79.2) noble; urgency=medium
 
   * Unallow students
